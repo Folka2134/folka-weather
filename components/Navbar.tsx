@@ -6,7 +6,7 @@ import logo from "../public/images/logo_icon.png";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between bg-[#2A2A2A] px-10 py-6">
+    <div className="flex justify-between bg-[#2A2A2A] px-10 py-6 md:px-24 xl:px-48 2xl:px-96">
       <div className="flex items-center gap-2">
         <Image src={logo} height={30} width={30} alt="logo" />
         <h3 className="text-xl font-semibold text-white">Folka Weather</h3>
