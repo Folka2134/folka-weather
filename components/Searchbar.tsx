@@ -19,7 +19,7 @@ const Searchbar = () => {
 
   const handleKeyDown = (event: any) => {
     if (event.key === "Enter") {
-      router.push(`/forecast/${searchInput}`);
+      router.push(`/location/${searchInput}`);
     }
   };
 
@@ -40,7 +40,7 @@ const Searchbar = () => {
         />
         <a
           className="flex items-center justify-center bg-white pr-8"
-          href={`/forecast/${searchInput}`}
+          href={`/location/${searchInput}`}
         >
           <FaMagnifyingGlass size={20} color="gray" />
         </a>
@@ -56,7 +56,7 @@ const Searchbar = () => {
                     key={city}
                     className="mt-1 flex cursor-pointer items-center gap-1 p-[2px] hover:bg-gray-100"
                     onClick={() =>
-                      router.push(`/forecast/${city.toLowerCase()}`)
+                      router.push(`/location/${city.toLowerCase()}`)
                     }
                   >
                     <CiLocationOn size={20} />
