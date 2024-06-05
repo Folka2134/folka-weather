@@ -19,7 +19,7 @@ const WeatherMap = () => {
   // });
 
   return (
-    <div className="my-5 flex w-full flex-col px-5 md:px-12 lg:px-32 xl:px-44 2xl:px-80">
+    <div className="">
       {/* {mapData && (
         <Image src={mapData} alt="Weather Map" height={500} width={500} />
       )} */}
