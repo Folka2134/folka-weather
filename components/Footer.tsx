@@ -18,7 +18,7 @@ import appStore from "../public/images/apple-store-badge.svg";
 const Footer = () => {
   return (
     <div>
-      <div className="flex h-72 justify-center gap-5 bg-[#3A3A3A] p-5">
+      <div className="mt-10 flex h-72 justify-center gap-5 bg-[#3A3A3A] p-5">
         <div className="border-r-[1px] border-gray-600 border-opacity-70">
           <Image src={logo} height={100} width={150} alt="logo" />
         </div>
